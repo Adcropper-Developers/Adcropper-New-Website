@@ -1,0 +1,191 @@
+.landing-page .navigation-bar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2.5em;
+  padding-bottom: 4em;
+}
+
+.navigation-bar .background {
+  display: none;
+}
+
+.landing-page .navigation-bar .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  gap: 2em;
+}
+
+.landing-page .navigation-nav-wrapper {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: var(--gutter-x);
+  padding-right: var(--gutter-x);
+}
+
+.landing-page .navigation-bar-logo {
+  width: 13.5em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.landing-page .navigation-nav {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+}
+
+.landing-page .navigation-center {
+  flex: 1 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.landing-page .navigation-mobile {
+  display: none;
+}
+
+.landing-page .navigation-theme {
+  display: flex;
+  align-items: center;
+}
+
+.landing-page .navigation-nav a {
+  --text-opacity: 0.50;
+  font-weight: 500;
+  color: rgba(var(--font-color-rgb), var(--text-opacity));
+}
+
+.landing-page .navigation-nav a.active {
+  opacity: 100%;
+}
+
+.landing-page .navigation-nav .button.button-tertiary {
+  padding: 0.7em 1.6em;
+  border: 1px solid rgba(var(--font-color-rgb), var(--text-opacity));
+}
+
+.landing-page .navigation-nav .button.button-yellow {
+  border-color: transparent;
+  --text-opacity: 1;
+  color: rgba(var(--font-color-rgb), var(--text-opacity));
+  font-style: italic;
+  padding: 0.7em 3.25em;
+}
+
+.landing-page .navigation-nav .button.button-tertiary {
+  margin-right: -1em;
+  font-style: italic;
+}
+
+@media only screen and (max-width: 992px) {
+  .navigation-bar .background {
+    display: flex;
+  }
+
+  .landing-page .navigation-nav .navigation-theme {
+    display: none;
+  }
+
+  .landing-page .navigation-nav-wrapper {
+    flex-wrap: wrap;
+    z-index: -2;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    top: -10em;
+    left: 0;
+    transition: 0.2s all;
+    gap: 2em;
+  }
+
+  .landing-page .navigation-bar.active .navigation-nav-wrapper {
+    top: 3.7em;
+    left: 0;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: var(--bg-line-color);
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1), inset 0px 2px 6px rgba(0, 0, 0, 0.1)
+  }
+
+  .landing-page .navigation-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .landing-page .navigation-center {
+    position: relative;
+    justify-content: space-between;
+  }
+
+  .landing-page .navigation-mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4em;
+  }
+
+  .landing-page .navigation-mobile div {
+    height: 0.2em;
+    width: 1.75em;
+    background-color: rgb(var(--font-color-rgb));
+    pointer-events: none;
+    transition: all 0.5s;
+  }
+
+  .landing-page .navigation-mobile.close div:nth-child(1) {
+    transform: rotate(45deg) translate(0.45em, 0.4em);
+  }
+
+  .landing-page .navigation-mobile.close div:nth-child(2) {
+    opacity: 0;
+  }
+
+  .landing-page .navigation-mobile.close div:nth-child(3) {
+    transform: rotate(-45deg) translate(0.45em, -0.4em);
+  }
+
+  .section1 {
+    padding-top: 5em;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .landing-page .navigation-nav-wrapper {
+    flex-wrap: nowrap;
+    padding-top: 2em !important;
+    padding-bottom: 5em !important;
+    gap: 2em;
+  }
+  .landing-page .navigation-nav .button {
+    position: absolute;
+    white-space: nowrap;
+    left: 50%;
+
+    bottom: 1em;
+  }
+
+  .landing-page .navigation-nav .button.button-tertiary {
+    transform: translateX(-120%);
+  }
+
+  .landing-page .navigation-nav .button.button-yellow {
+    transform: translateX(20%);
+  }
+}

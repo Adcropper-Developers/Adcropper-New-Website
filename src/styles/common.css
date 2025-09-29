@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.landing-page *, 
+.landing-page *::before,
+.landing-page *::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.landing-page a {
+    text-decoration: none;
+}
+
+.landing-page button {
+    cursor: pointer;
+}
+
+.landing-page h1,
+.landing-page h2,
+.landing-page h3,
+.landing-page h4,
+.landing-page h5,
+.landing-page h6,
+.landing-page hr,
+.landing-page p,
+.landing-page a,
+.landing-page figure {
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    font-weight: normal;
+    margin: 0;
+    border-width: 0;
+    opacity: 1;
+}
+
+.landing-page h2 {
+    font-weight: 300;
+    font-size: 3.5em;
+    --text-opacity: 1;
+    color: rgba(var(--font-color-rgb), var(--text-opacity));
+}
+
+.landing-page h3 {
+    font-weight: 300;
+    font-size: 2em;
+    --text-opacity: 1;
+    color: rgba(var(--font-color-rgb), var(--text-opacity));
+}
+
+.landing-page h4 {
+    font-weight: 300;
+    font-size: 1.6em;
+    --text-opacity: 1;
+    color: rgba(var(--font-color-rgb), var(--text-opacity));
+}
+
+.landing-page h5 {
+    font-weight: 600;
+    font-size: 1.1em;
+    --text-opacity: 1;
+    color: rgba(var(--font-color-rgb), var(--text-opacity));
+}
+
+
+.landing-page ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.landing-page p {
+    font-size: 1em;
+    --text-opacity: 0.63;
+    color: rgba(var(--font-color-rgb), var(--text-opacity));
+    line-height: 1.9em;
+}
+
+.landing-page li {
+    display: block;
+}
+
+.landing-page button {
+    background-color: transparent;
+    border: none;
+    display: block;
+    padding: 0;
+    margin: 0;
+    align-items: normal;
+}
+
+.landing-page body {
+    margin: 0;
+    /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}

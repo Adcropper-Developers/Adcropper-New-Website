@@ -1,0 +1,184 @@
+/*# sourceMappingURL=utils.css.map */
+
+/* Variables */
+.landing-page {
+  --bg-color: white;
+  --bg-line-color: #fafafa;
+  --font-color-rgb: 30, 30, 30;
+  --bg-yellow-rgb: 249, 255, 132;
+  --bg-green-rgb: 114, 255, 170;
+  --bg-pink-rgb: 255, 170, 241;
+  --bg-blue-rgb: 134, 213, 255;
+  --showroom-text-color: -webkit-linear-gradient(0deg, rgba(var(--font-color-rgb), 0) 0%, rgba(var(--font-color-rgb), 0.61) 50%, rgba(var(--font-color-rgb), 0) 100%);
+  --gutter-x: 2rem;
+  --border-radius: 1.5em;
+  --gradient-bg: linear-gradient(180deg, rgba(var(--font-color-rgb), 0.05) 0%, rgba(var(--font-color-rgb), 0) 100%);
+}
+
+.landing-page.dark {
+  --bg-color: rgba(30, 30, 30, 1);
+  --bg-line-color: #222222;
+  --font-color-rgb: 255, 255, 255;
+}
+
+.landing-page.dark img {
+  filter: invert(1);
+}
+
+/* Font Sizes */
+.landing-page {
+  font-size: 16px;
+}
+
+.landing-page,
+.landing-page * {
+  transition: 0.2s background, 0.2s background-color, 0.2s color, 0.2s border-color, 0.2s filter;
+}
+
+@media (min-width: 1920px) {
+  .landing-page {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 1919px) and (min-width: 1440px) {
+  .landing-page {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 1439px) and (min-width: 1280px) {
+  .landing-page {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 1279px) and (min-width: 992px) {
+  .landing-page {
+    font-size: 12.5px;
+  }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+  .landing-page {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 767px) and (min-width: 576px) {
+  .landing-page {
+    font-size: 11.5px;
+  }
+}
+
+@media (max-width: 575px) {
+  .landing-page {
+    font-size: 10px;
+    --gutter-x: 1em;
+  }
+}
+
+/* Wrapper Container */
+.landing-page .wrapper {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+  padding-left: var(--gutter-x);
+  padding-right: var(--gutter-x);
+}
+
+/* Button */
+
+.landing-page .button {
+  --text-opacity: 0.70;
+  --border-radius: 100em;
+  padding: 0.7em 2.2em;
+  font-weight: 400;
+  color: rgba(var(--font-color-rgb), var(--text-opacity));
+  border: 1px solid rgba(var(--font-color-rgb), 1);
+  border-radius: var(--border-radius);
+  border-color: transparent;
+  background: linear-gradient(180deg, rgba(var(--font-color-rgb), 0.05) 0%, rgba(var(--font-color-rgb), 0) 100%);
+}
+
+.landing-page .button.button-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.5em;
+  --text-opacity: 1;
+  color: rgba(var(--font-color-rgb), var(--text-opacity));
+  border-radius: 1em;
+  padding: 1.1em 2em;
+  font-weight: 300;
+}
+
+.landing-page .button-yellow {
+  --bg: var(--bg-yellow-rgb);
+  background: unset;
+  background-color: rgb(var(--bg));
+}
+
+.landing-page .button-green {
+  --bg: var(--bg-green-rgb);
+  background-color: rgb(var(--bg));
+}
+
+.landing-page .button-pink {
+  --bg: var(--bg-pink-rgb);
+  background-color: rgb(var(--bg));
+}
+
+.landing-page .button-blue {
+  --bg: var(--bg-blue-rgb);
+  background-color: rgb(var(--bg));
+}
+
+.landing-page .button-emphasis {
+  border: 1px solid rgb(var(--font-color-rgb));
+  background: linear-gradient(180deg, rgba(var(--font-color-rgb), 0.12) 0%, rgba(var(--font-color-rgb), 0) 100%);
+  color: rgba(var(--font-color-rgb), 1);
+}
+
+.landing-page.dark .button-yellow, 
+.landing-page.dark .button-green,
+.landing-page.dark .button-pink,
+.landing-page.dark .button-blue {
+  --font-color-rgb: 30, 30, 30;
+}
+
+
+/* Border */
+
+.landing-page .glass-border {
+  position: relative;
+  /* overflow: hidden; */
+  border: 1px solid black;  
+}
+
+/* .landing-page .glass-border::before {
+  content: "";
+  width: calc(100% + 1px);
+  height: calc(100% + 1px);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: linear-gradient(-40deg, rgba(var(--font-color-rgb), 0) 30%, rgba(var(--font-color-rgb), 0.30) 100%);
+  z-index: -1;
+}
+
+.landing-page .glass-border::after {
+  content: "";
+  width: calc(100% - 2px);
+  height: calc(100% - 2px);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: inherit;
+  z-index: 0;
+  border-radius: inherit;
+}
+
+*/
