@@ -18,6 +18,7 @@ function Section2() {
             <button onClick={() => setSelectedTab(1)} className={'button'+(selectedTab === 1 ? ' button-yellow' : '')}>
               Social Media
             </button>
+            <br />
             <button onClick={() => setSelectedTab(2)} className={'button'+(selectedTab === 2 ? ' button-pink' : '')}>
               CRM
             </button>

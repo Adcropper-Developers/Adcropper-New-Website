@@ -91,6 +91,7 @@ function Section6() {
             <button onClick={() => changeTab('branding')} className={'button' + (selectedTab === 'branding' ? ' button-yellow' : '')}>
               Branding
             </button>
+            <br />
             <button onClick={() => changeTab('landing-page')} className={'button' + (selectedTab === 'landing-page' ? ' button-pink' : '')}>
               Landing Page
             </button>

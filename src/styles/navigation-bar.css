@@ -27,6 +27,7 @@
   justify-content: space-between;
   padding-left: var(--gutter-x);
   padding-right: var(--gutter-x);
+  left: 0;
 }
 
 .landing-page .navigation-bar-logo {

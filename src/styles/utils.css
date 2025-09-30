@@ -93,6 +93,7 @@
   --text-opacity: 0.70;
   --border-radius: 100em;
   padding: 0.7em 2.2em;
+  font-size: 1em;
   font-weight: 400;
   color: rgba(var(--font-color-rgb), var(--text-opacity));
   border: 1px solid rgba(var(--font-color-rgb), 1);
