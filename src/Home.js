@@ -32,6 +32,26 @@ export default function Home() {
     }
   };
 
+  useEffect(() => {
+    const sections = document.querySelectorAll('section');
+
+    sections.forEach((section) => {
+      let threshold = 0.4;
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              section.classList.add("active");
+            }
+          });
+        },
+        { threshold: threshold }
+      );
+
+      observer.observe(section);
+    });
+  }, []);
+
   return (
     <main className={`landing-page ${theme}`}>
       <Background />

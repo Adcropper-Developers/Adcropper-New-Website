@@ -70,15 +70,27 @@ function Section6() {
     }
   });
   const tabWrapperRef = useRef();
-
+  const testimonialTabRef = useRef();
   const changeTab = useCallback((tab) => {
     setSelectedTab(tab);
     setChildrenTab(0);
     tabWrapperRef.current.classList.remove('active');
+    testimonialTabRef.current.classList.remove('active');
     setTimeout(() => {
       tabWrapperRef.current.classList.add('active');
+      testimonialTabRef.current.classList.add('active');
     }, 200);
-  })
+  });
+
+  const changeChildrenTab = useCallback((idx) => {
+    testimonialTabRef.current.classList.remove('active');
+    setTimeout(() => {
+      setChildrenTab(idx);
+      setTimeout(() => {
+        testimonialTabRef.current.classList.add('active');
+      }, 100);
+    }, 100);
+  });
   return (
     <section className='section6'>
       <div className='wrapper'>
@@ -108,7 +120,7 @@ function Section6() {
                 <span>Betsson</span>
               </div>
               <div className='testimonial-info'>
-                <div className='testimonial-tab'>
+                <div className='testimonial-tab active' ref={testimonialTabRef}>
                   <h3>{content[selectedTab].children[childrenTab].name}</h3>
                   <p>
                     {content[selectedTab].children[childrenTab].body}
@@ -117,7 +129,7 @@ function Section6() {
                 <div className='testimonial-buttons'>
                   {content[selectedTab].children.length > 1 && content[selectedTab].children.map((child, idx) => {
                     return (
-                      <button onClick={() => setChildrenTab(idx)} className={'button ' + (childrenTab === idx ? ` ${child.activeClass}` : '')}>
+                      <button onClick={() => changeChildrenTab(idx)} className={'button ' + (childrenTab === idx ? ` ${child.activeClass}` : '')}>
                         {child.name}
                       </button>
                     )

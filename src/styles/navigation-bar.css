@@ -60,6 +60,10 @@
   align-items: center;
 }
 
+.landing-page .navigation-center .navigation-theme {
+  display: none;
+}
+
 .landing-page .navigation-nav a {
   --text-opacity: 0.50;
   font-weight: 500;
@@ -134,6 +138,10 @@
     justify-content: space-between;
   }
 
+  .landing-page .navigation-center .navigation-theme {
+    display: block;
+  }
+
   .landing-page .navigation-mobile {
     display: flex;
     flex-direction: column;
@@ -174,6 +182,7 @@
     padding-bottom: 5em !important;
     gap: 2em;
   }
+
   .landing-page .navigation-nav .button {
     position: absolute;
     white-space: nowrap;

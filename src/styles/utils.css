@@ -136,7 +136,6 @@
 }
 
 .landing-page .button-emphasis {
-  border: 1px solid rgb(var(--font-color-rgb));
   background: linear-gradient(180deg, rgba(var(--font-color-rgb), 0.12) 0%, rgba(var(--font-color-rgb), 0) 100%);
   color: rgba(var(--font-color-rgb), 1);
 }
@@ -154,7 +153,21 @@
 .landing-page .glass-border {
   position: relative;
   /* overflow: hidden; */
-  border: 1px solid black;  
+}
+
+.glass-border::before {
+  content: '';
+   position: absolute;
+  inset: 0;
+  padding: 2px; /* border kalınlığı */
+  border-radius: inherit;
+  background: linear-gradient(135deg, rgba(var(--font-color-rgb), 0.3) 0%, rgba(var(--font-color-rgb), 0.05) 100%);
+  -webkit-mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+          mask-composite: exclude;
+  pointer-events: none;
 }
 
 /* .landing-page .glass-border::before {

@@ -4,6 +4,7 @@ html,
 body {
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 .landing-page *,
@@ -16,10 +17,21 @@ body {
 
 .landing-page a {
     text-decoration: none;
+    user-select: none;
 }
 
 .landing-page button {
-    cursor: pointer;
+    user-select: none;
+}
+
+@media (hover: hover) {
+    .landing-page a {
+        cursor: pointer;
+    }
+
+    .landing-page button {
+        cursor: pointer;
+    }
 }
 
 .landing-page h1,
