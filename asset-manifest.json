@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Adcropper-New-Website/static/css/main.f0f8d141.css",
-    "main.js": "/Adcropper-New-Website/static/js/main.08575bcc.js",
+    "main.js": "/Adcropper-New-Website/static/js/main.fb4b8c1e.js",
     "static/media/basketball-player.png": "/Adcropper-New-Website/static/media/basketball-player.8247d5294f5eab93ec66.png",
     "static/media/service.png": "/Adcropper-New-Website/static/media/service.b9618b7e0469a00c76cc.png",
     "static/media/sb_tech.png": "/Adcropper-New-Website/static/media/sb_tech.163f104832752ca9ea4f.png",
@@ -18,10 +18,10 @@
     "index.html": "/Adcropper-New-Website/index.html",
     "static/media/chevron_left.svg": "/Adcropper-New-Website/static/media/chevron_left.7c086b8333c25b10c871959d677aa02b.svg",
     "main.f0f8d141.css.map": "/Adcropper-New-Website/static/css/main.f0f8d141.css.map",
-    "main.08575bcc.js.map": "/Adcropper-New-Website/static/js/main.08575bcc.js.map"
+    "main.fb4b8c1e.js.map": "/Adcropper-New-Website/static/js/main.fb4b8c1e.js.map"
   },
   "entrypoints": [
     "static/css/main.f0f8d141.css",
-    "static/js/main.08575bcc.js"
+    "static/js/main.fb4b8c1e.js"
   ]
 }
