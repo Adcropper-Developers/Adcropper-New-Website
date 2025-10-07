@@ -77,13 +77,20 @@ html {
 }
 
 .landing-page .centered-elements {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  width: 85em;
+  height: 40em;
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.landing-page .centered-elements div {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -40%);
 }
 
 .landing-page .centered-elements h3 {
@@ -220,12 +227,6 @@ html {
   opacity: 1;
   transform: translateY(0%);
   transition: 0.2s opacity, 0.2s transform;
-}
-
-@media only screen and (max-width: 1120px) {
-  .landing-page .centered-elements .basketball-player {
-    transform: translate(85%, -70%) scaleX(-1);
-  }
 }
 
 /* Section 2 */
@@ -909,9 +910,9 @@ html {
     padding-top: 5em;
   }
 
-  .landing-page .centered-elements {
+  /* .landing-page .centered-elements {
     transform: translate(-50%, -150%);
-  }
+  } */
 
   .landing-page .stat-wrapper {
     width: 32em;
@@ -1007,9 +1008,9 @@ html {
 }
 
 @media only screen and (max-width: 765px) {
-  .landing-page .centered-elements {
+  /* .landing-page .centered-elements {
     transform: translate(-50%, -260%);
-  }
+  } */
 
   .landing-page .section1 h2 {
     transform: translateY(-290%);
@@ -1087,8 +1088,13 @@ html {
   }
 
   .landing-page .centered-elements {
-    transform: translate(-130%, -360%);
+    width: 70em;
+    height: 26em;
   }
+
+  /* .landing-page .centered-elements {
+    transform: translate(-130%, -360%);
+  } */
 
   .landing-page .centered-elements .basketball-player {
     width: 12.3em;

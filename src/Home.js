@@ -10,6 +10,7 @@ import Section3 from './Section3';
 import Section4 from './Section4';
 import Section5 from './Section5';
 import Section6 from './Section6';
+import Loader from './Loader';
 
 
 // import freelanceJson from '../../../assets/images/lotties/freelance.json';
@@ -17,6 +18,7 @@ import Section6 from './Section6';
 
 export default function Home() {
   const [theme, setTheme] = useState('light');
+  const [isLoading, setIsLoading] = useState(true);
   document.title = 'Adcropper';
 
   useEffect(() => {
@@ -52,8 +54,28 @@ export default function Home() {
     });
   }, []);
 
+
+  useEffect(() => {
+    const handleLoad = () => {
+      setIsLoading(false);
+    };
+
+    if (document.readyState === "complete") {
+      // Sayfa zaten yüklendiyse direkt çalıştır
+      handleLoad();
+    } else {
+      // Henüz yüklenmediyse window.load'u dinle
+      window.addEventListener("load", handleLoad);
+    }
+
+    return () => {
+      window.removeEventListener("load", handleLoad);
+    };
+  }, []);
+
   return (
     <main className={`landing-page ${theme}`}>
+      <Loader isLoading={isLoading} />
       <Background />
       <Navbar theme={theme} changeTheme={changeTheme} />
       <Section1 />

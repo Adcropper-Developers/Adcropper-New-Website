@@ -1,8 +1,11 @@
 import React, { useEffect, useRef } from 'react'
 import service from './assets/service.png';
 import basketballPlayer from './assets/basketball-player.png';
+import Lottie from 'react-lottie-player';
+import desktopJson from './assets/1920x1080.json';
 function Section1() {
   const textShowroom = useRef();
+  const lottieRef = useRef();
 
   useEffect(() => {
     if (textShowroom.current) {
@@ -80,16 +83,22 @@ function Section1() {
           <h1 className='platform'>BANNER</h1>
           <h1 className='platform'>ADCROPPER</h1>
         </div>
-        <img className='service' src={service} draggable='false' />
+        {/* <img className='service' src={service} draggable='false' /> */}
         <h2>Orchestrate your <br />
           ad campaigns</h2>
         <div className='centered-elements'>
-          <h3>LOREM <br /> IPSUM</h3>
+          <Lottie
+            ref={lottieRef}
+            play
+            loop={true}
+            animationData={desktopJson}
+          />
+          {/* <h3>LOREM <br /> IPSUM</h3>
           <a className='button button-green glassy-border' href='/'>
-            {/* <span>Get Started</span> */}
             Get Started
           </a>
-          <img className='basketball-player' src={basketballPlayer} draggable='false' />
+          <img className='basketball-player' src={basketballPlayer} draggable='false' /> */}
+
         </div>
         <div className='bottom-part'>
           <div className='stat-wrapper'>
