@@ -9,6 +9,7 @@
   --bg-green-rgb: 114, 255, 170;
   --bg-pink-rgb: 255, 170, 241;
   --bg-blue-rgb: 134, 213, 255;
+  --bg-orange-rgb: 255, 114, 116;
   --showroom-text-color: -webkit-linear-gradient(0deg, rgba(var(--font-color-rgb), 0) 0%, rgba(var(--font-color-rgb), 0.61) 50%, rgba(var(--font-color-rgb), 0) 100%);
   --gutter-x: 2rem;
   --border-radius: 1.5em;

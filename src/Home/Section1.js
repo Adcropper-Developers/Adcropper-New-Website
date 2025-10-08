@@ -103,25 +103,25 @@ function Section1() {
         <div className='bottom-part'>
           <div className='stat-wrapper'>
             <div className='stat'>
-              <div className='stat-title'>Banner Gösterim Sayısı</div>
+              <div className='stat-title'>Impressions</div>
               <div className='stat-body'>
                 1.543.344+
               </div>
             </div>
             <div className='stat'>
-              <div className='stat-title'>Yapılan Banner Sayısı</div>
+              <div className='stat-title'>Banners Made</div>
               <div className='stat-body'>
                 64543
               </div>
             </div>
             <div className='stat'>
-              <div className='stat-title'>Marka</div>
+              <div className='stat-title'>Brands</div>
               <div className='stat-body'>
                 248
               </div>
             </div>
             <div className='stat'>
-              <div className='stat-title'>Market Sayısı</div>
+              <div className='stat-title'>Markets</div>
               <div className='stat-body'>
                 70
               </div>

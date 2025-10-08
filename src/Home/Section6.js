@@ -15,13 +15,7 @@ function Section6() {
         {
           name: 'Social Media',
           body: `
-            Adcropper specializes in creating eye-catching social media banners that capture
-            attention and boost engagement. Our designs are tailored to fit each platform's unique
-            requirements, ensuring optimal display and impact across Facebook, Instagram, X, and
-            more. With a keen understanding of branding, we produces visually striking banners that
-            communicate your message clearly and professionally. Whether you're launching a new
-            product, promoting an event, or enhancing your brand presence, Adcropper’s banner
-            designs are crafted to leave a lasting impression.
+           Adcropper specializes in creating eye-catching social media banners that capture attention and boost engagement. Our designs are tailored to fit each platform's unique requirements, ensuring optimal display and impact across Facebook, Instagram, X, and more. With a keen understanding of branding, we produces visually striking banners that communicate your message clearly and professionally. Whether you're launching a new product, promoting an event, or enhancing your brand presence, Adcropper's banner designs are crafted to leave a lasting impression.
           `,
           activeClass: 'button-green'
         }
@@ -31,7 +25,9 @@ function Section6() {
       children: [
         {
           name: 'Branding',
-          body: `Adcropper excels in creating compelling branding and 3D characters, leveraging a combination of creative expertize and advanced technology. Our team specialises in crafting unique brand identities that capture the essence of your business, ensuring that your brand stands out in a competitive market.`,
+          body: `
+            Adcropper creates compelling branding and 3D character solutions, leveraging a combination of creative expertize and advanced technology. Our team specialises in crafting unique brand identities that capture the essence of your business, ensuring that your brand stands out in a competitive market. We also bring ideas to life with precision and creativity, designing characters that not only resonate with your audience but also add depth and personality to your brand. Whether for marketing campaigns, digital experiences or interactive content, Adcropper’s talents ensure that your brand and characters are both memorable and impactful.
+          `,
           activeClass: 'button-yellow'
         },
         {
@@ -53,8 +49,10 @@ function Section6() {
     'landing-page': {
       children: [
         {
-          name: 'Landing Page',
-          body: `Adcropper excels in creating compelling branding and 3D characters, leveraging a combination of creative expertize and advanced technology. Our team specialises in crafting unique brand identities that capture the essence of your business, ensuring that your brand stands out in a competitive market.`,
+          name: 'Landing Page (Design & Coding)',
+          body: `
+            Creating landing pages together with banners, Adcropper ensures a seamless and cohesive user journey, where the message and design of the ad flow naturally into the landing page. This alignment creates a natural flow, where the design and messaging of the ad are reflected consistently on the landing page. Such consistency reinforces the ad’s call to action and helps maintain user interest. The result is a more intuitive experience that meets user expectations and delivers relevant content. This approach significantly boosts the chances of conversion by providing a unified, engaging experience throughout the entire process.
+          `,
           activeClass: 'button-pink'
         },
       ],
@@ -63,7 +61,9 @@ function Section6() {
       children: [
         {
           name: 'Video Production',
-          body: `Adcropper excels in creating compelling branding and 3D characters, leveraging a combination of creative expertize and advanced technology. Our team specialises in crafting unique brand identities that capture the essence of your business, ensuring that your brand stands out in a competitive market.`,
+          body: `
+            Video banners incorporate video content into ad units, offering a compelling way to capture audience's attention with motion and storytelling. These banners enhance user engagement by delivering impactful messages in a format that is visually appealing and more likely to resonate with viewers than static ads. Adcropper also creates custom videos designed to drive attention, whether for social media, websites, or digital campaigns, combining creativity with impactful design to boost conversions and brand awareness.
+          `,
           activeClass: 'button-blue'
         },
       ],

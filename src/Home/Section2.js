@@ -33,7 +33,7 @@ function Section2() {
     <section className='section2'>
       <div className='wrapper'>
         <div className='title-wrapper'>
-          <h2>What you can</h2>
+          <h2>Transform ideas into high-performing campaigns, <br /> including but not limited to:</h2>
           <div className='tab-button-wrapper'>
             <button onClick={() => setSelectedTab(0)} className={'button' + (selectedTab === 0 ? ' button-green' : '')}>
               Display

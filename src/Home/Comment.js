@@ -7,7 +7,7 @@ function Comment({name, title, text, image}) {
         <p>{text}</p>
         <h4>{name} <span>\ {title}</span></h4>
       </div>
-      <div className='comment-image'></div>
+      <div className='comment-image' style={{backgroundImage: `url(${image})`}}></div>
     </div>
   )
 }
