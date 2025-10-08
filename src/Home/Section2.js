@@ -1,8 +1,8 @@
 import React, { useEffect, useRef, useState } from 'react';
-import adform from './assets/adform.png';
-import google from './assets/google.png';
-import amazon from './assets/amazon.png';
-import openX from './assets/openX.png';
+import adform from '../assets/adform.png';
+import google from '../assets/google.png';
+import amazon from '../assets/amazon.png';
+import openX from '../assets/openX.png';
 
 function Section2() {
   const tabs = useRef([]);

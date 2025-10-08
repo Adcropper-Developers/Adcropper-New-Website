@@ -1,5 +1,5 @@
 import React, { useCallback, useEffect, useRef, useState } from 'react';
-import placeholder from './assets/placeholder.png';
+import placeholder from '../assets/placeholder.png';
 
 function Section6() {
   const [selectedTab, setSelectedTab] = useState('banners');

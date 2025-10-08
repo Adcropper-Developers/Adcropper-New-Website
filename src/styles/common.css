@@ -7,43 +7,43 @@ body {
     overflow-x: hidden;
 }
 
-.landing-page *,
-.landing-page *::before,
-.landing-page *::after {
+*,
+*::before,
+*::after {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
 
-.landing-page a {
+a {
     text-decoration: none;
     user-select: none;
 }
 
-.landing-page button {
+button {
     user-select: none;
 }
 
 @media (hover: hover) {
-    .landing-page a {
+    a {
         cursor: pointer;
     }
 
-    .landing-page button {
+    button {
         cursor: pointer;
     }
 }
 
-.landing-page h1,
-.landing-page h2,
-.landing-page h3,
-.landing-page h4,
-.landing-page h5,
-.landing-page h6,
-.landing-page hr,
-.landing-page p,
-.landing-page a,
-.landing-page figure {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+a,
+figure {
     display: block;
     font-family: 'Poppins', sans-serif;
     font-size: 1em;
@@ -53,28 +53,28 @@ body {
     opacity: 1;
 }
 
-.landing-page h2 {
+h2 {
     font-weight: 300;
     font-size: 3.5em;
     --text-opacity: 1;
     color: rgba(var(--font-color-rgb), var(--text-opacity));
 }
 
-.landing-page h3 {
+h3 {
     font-weight: 300;
     font-size: 2em;
     --text-opacity: 1;
     color: rgba(var(--font-color-rgb), var(--text-opacity));
 }
 
-.landing-page h4 {
+h4 {
     font-weight: 300;
     font-size: 1.6em;
     --text-opacity: 1;
     color: rgba(var(--font-color-rgb), var(--text-opacity));
 }
 
-.landing-page h5 {
+h5 {
     font-weight: 600;
     font-size: 1.1em;
     --text-opacity: 1;
@@ -82,24 +82,24 @@ body {
 }
 
 
-.landing-page ul {
+ul {
     display: block;
     margin: 0;
     padding: 0;
 }
 
-.landing-page p {
+p {
     font-size: 1em;
     --text-opacity: 0.63;
     color: rgba(var(--font-color-rgb), var(--text-opacity));
     line-height: 1.9em;
 }
 
-.landing-page li {
+li {
     display: block;
 }
 
-.landing-page button {
+button {
     background-color: transparent;
     border: none;
     display: block;
@@ -108,7 +108,7 @@ body {
     align-items: normal;
 }
 
-.landing-page body {
+body {
     margin: 0;
     /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", */
@@ -117,7 +117,7 @@ body {
 }
 
 @media only screen and (max-width:576px) {
-    .landing-page h2 {
+    h2 {
         font-size: 3em;
     }
 }

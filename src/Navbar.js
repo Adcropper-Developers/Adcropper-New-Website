@@ -6,6 +6,7 @@ import adcLogo from './assets/logo.svg';
 import sun from './assets/sun.svg';
 import moon from './assets/moon.svg';
 import Background from './Background';
+import { Link } from 'react-router-dom';
 
 
 function Navbar({ theme, changeTheme }) {
@@ -38,7 +39,12 @@ function Navbar({ theme, changeTheme }) {
                 : <img src={moon} />}
             </button>
             <a href='#'>Contact</a>
-            <a href='#' className='button button-tertiary'>Book A Demo</a>
+                   <a className='button button-tertiary' href='#'>
+                Book A Demo
+            </a>
+            {/* <Link className='button button-tertiary' to='/book-demo'>
+                Book A Demo
+            </Link> */}
             <a href='#' className='button button-yellow'>Sign In</a>
           </div>
         </div>

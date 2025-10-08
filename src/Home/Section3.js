@@ -1,10 +1,10 @@
 import React from 'react'
 import ServiceCard from './ServiceCard';
-import analytics from './assets/analytics.svg';
-import publishing from './assets/publishing.svg';
-import automation from './assets/automation.svg';
-import animation from './assets/animation.svg';
-import template from './assets/template.svg';
+import analytics from '../assets/analytics.svg';
+import publishing from '../assets/publishing.svg';
+import automation from '../assets/automation.svg';
+import animation from '../assets/animation.svg';
+import template from '../assets/template.svg';
 function Section3() {
   return (
     <section className='section3'>

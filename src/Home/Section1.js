@@ -1,8 +1,8 @@
 import React, { useEffect, useRef } from 'react'
-import service from './assets/service.png';
-import basketballPlayer from './assets/basketball-player.png';
+import service from '../assets/service.png';
+import basketballPlayer from '../assets/basketball-player.png';
 import Lottie from 'react-lottie-player';
-import desktopJson from './assets/1920x1080.json';
+import desktopJson from '../assets/1920x1080.json';
 function Section1() {
   const textShowroom = useRef();
   const lottieRef = useRef();
