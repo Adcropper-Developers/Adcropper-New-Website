@@ -1,9 +1,13 @@
 {
   "files": {
-    "main.css": "/Adcropper-New-Website/static/css/main.10e3a49c.css",
-    "main.js": "/Adcropper-New-Website/static/js/main.ad0eac93.js",
+    "main.css": "/Adcropper-New-Website/static/css/main.4d201379.css",
+    "main.js": "/Adcropper-New-Website/static/js/main.48154a9f.js",
     "static/media/charlotte_veyron.png": "/Adcropper-New-Website/static/media/charlotte_veyron.9a66476031a5f7ca88a4.png",
+    "static/media/display_banner_3.png": "/Adcropper-New-Website/static/media/display_banner_3.2d6d77aa8d82a98dc72f.png",
+    "static/media/display_banner_2.png": "/Adcropper-New-Website/static/media/display_banner_2.834ee8a90f8aa3b6b815.png",
     "static/media/goran_lakic.png": "/Adcropper-New-Website/static/media/goran_lakic.2e90f831e5cce143fcab.png",
+    "static/media/display_banner_4.png": "/Adcropper-New-Website/static/media/display_banner_4.474568afa36fa406768b.png",
+    "static/media/display_banner_1.png": "/Adcropper-New-Website/static/media/display_banner_1.4d03700948004d43e0d3.png",
     "static/media/basketball-player.png": "/Adcropper-New-Website/static/media/basketball-player.8247d5294f5eab93ec66.png",
     "static/media/service.png": "/Adcropper-New-Website/static/media/service.b9618b7e0469a00c76cc.png",
     "static/media/sb_tech.png": "/Adcropper-New-Website/static/media/sb_tech.163f104832752ca9ea4f.png",
@@ -19,11 +23,11 @@
     "static/media/publishing.svg": "/Adcropper-New-Website/static/media/publishing.755f1673f1bd4887524c4bdb9597f7fa.svg",
     "index.html": "/Adcropper-New-Website/index.html",
     "static/media/chevron_left.svg": "/Adcropper-New-Website/static/media/chevron_left.7c086b8333c25b10c871959d677aa02b.svg",
-    "main.10e3a49c.css.map": "/Adcropper-New-Website/static/css/main.10e3a49c.css.map",
-    "main.ad0eac93.js.map": "/Adcropper-New-Website/static/js/main.ad0eac93.js.map"
+    "main.4d201379.css.map": "/Adcropper-New-Website/static/css/main.4d201379.css.map",
+    "main.48154a9f.js.map": "/Adcropper-New-Website/static/js/main.48154a9f.js.map"
   },
   "entrypoints": [
-    "static/css/main.10e3a49c.css",
-    "static/js/main.ad0eac93.js"
+    "static/css/main.4d201379.css",
+    "static/js/main.48154a9f.js"
   ]
 }
