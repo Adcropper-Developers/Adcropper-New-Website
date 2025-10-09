@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Adcropper-New-Website/static/css/main.2432d2cc.css",
-    "main.js": "/Adcropper-New-Website/static/js/main.d348e5a7.js",
+    "main.css": "/Adcropper-New-Website/static/css/main.3b125d81.css",
+    "main.js": "/Adcropper-New-Website/static/js/main.1fe93535.js",
     "static/media/charlotte_veyron.png": "/Adcropper-New-Website/static/media/charlotte_veyron.9a66476031a5f7ca88a4.png",
     "static/media/goran_lakic.png": "/Adcropper-New-Website/static/media/goran_lakic.2e90f831e5cce143fcab.png",
     "static/media/basketball-player.png": "/Adcropper-New-Website/static/media/basketball-player.8247d5294f5eab93ec66.png",
@@ -9,7 +9,7 @@
     "static/media/sb_tech.png": "/Adcropper-New-Website/static/media/sb_tech.163f104832752ca9ea4f.png",
     "static/media/football_api.png": "/Adcropper-New-Website/static/media/football_api.44ed3c6a192233214310.png",
     "static/media/arland.png": "/Adcropper-New-Website/static/media/arland.373d43ddfb9ecaf70731.png",
-    "static/media/logo.svg": "/Adcropper-New-Website/static/media/logo.a29b4d7ad6e331c7166691eb20ee12ee.svg",
+    "static/media/logo.svg": "/Adcropper-New-Website/static/media/logo.6f0481d14e397b320ed34b0e3b27df2f.svg",
     "static/media/automation.svg": "/Adcropper-New-Website/static/media/automation.2030072a6d245b82580b33762d504349.svg",
     "static/media/analytics.svg": "/Adcropper-New-Website/static/media/analytics.c1c1881b9231a1a36b798e9ec1caaacd.svg",
     "static/media/template.svg": "/Adcropper-New-Website/static/media/template.d275c98dddf5bfd9679a302bed0e1244.svg",
@@ -19,11 +19,11 @@
     "static/media/publishing.svg": "/Adcropper-New-Website/static/media/publishing.755f1673f1bd4887524c4bdb9597f7fa.svg",
     "index.html": "/Adcropper-New-Website/index.html",
     "static/media/chevron_left.svg": "/Adcropper-New-Website/static/media/chevron_left.7c086b8333c25b10c871959d677aa02b.svg",
-    "main.2432d2cc.css.map": "/Adcropper-New-Website/static/css/main.2432d2cc.css.map",
-    "main.d348e5a7.js.map": "/Adcropper-New-Website/static/js/main.d348e5a7.js.map"
+    "main.3b125d81.css.map": "/Adcropper-New-Website/static/css/main.3b125d81.css.map",
+    "main.1fe93535.js.map": "/Adcropper-New-Website/static/js/main.1fe93535.js.map"
   },
   "entrypoints": [
-    "static/css/main.2432d2cc.css",
-    "static/js/main.d348e5a7.js"
+    "static/css/main.3b125d81.css",
+    "static/js/main.1fe93535.js"
   ]
 }
