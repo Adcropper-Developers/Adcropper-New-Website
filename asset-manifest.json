@@ -1,24 +1,27 @@
 {
   "files": {
-    "main.css": "/Adcropper-New-Website/static/css/main.b659eb08.css",
-    "main.js": "/Adcropper-New-Website/static/js/main.ae753c56.js",
+    "main.css": "/Adcropper-New-Website/static/css/main.58362563.css",
+    "main.js": "/Adcropper-New-Website/static/js/main.39df9845.js",
     "static/media/charlotte_veyron.png": "/Adcropper-New-Website/static/media/charlotte_veyron.9a66476031a5f7ca88a4.png",
-    "static/media/display_banner_3.png": "/Adcropper-New-Website/static/media/display_banner_3.2d6d77aa8d82a98dc72f.png",
-    "static/media/display_banner_2.png": "/Adcropper-New-Website/static/media/display_banner_2.834ee8a90f8aa3b6b815.png",
     "static/media/goran_lakic.png": "/Adcropper-New-Website/static/media/goran_lakic.2e90f831e5cce143fcab.png",
-    "static/media/crm_banner.png": "/Adcropper-New-Website/static/media/crm_banner.8ff907bed084986894e2.png",
-    "static/media/display_banner_4.png": "/Adcropper-New-Website/static/media/display_banner_4.474568afa36fa406768b.png",
-    "static/media/display_banner_1.png": "/Adcropper-New-Website/static/media/display_banner_1.4d03700948004d43e0d3.png",
-    "static/media/social_banner_3.png": "/Adcropper-New-Website/static/media/social_banner_3.5eaa77c4bed85622f76d.png",
-    "static/media/social_banner_4.png": "/Adcropper-New-Website/static/media/social_banner_4.f4400bc0192a960284e5.png",
-    "static/media/social_banner_2.png": "/Adcropper-New-Website/static/media/social_banner_2.0b157e9acff370c7eca2.png",
+    "static/media/crm_banner.png": "/Adcropper-New-Website/static/media/crm_banner.9d755f375a546d577686.png",
     "static/media/basketball-player.png": "/Adcropper-New-Website/static/media/basketball-player.8247d5294f5eab93ec66.png",
     "static/media/service.png": "/Adcropper-New-Website/static/media/service.b9618b7e0469a00c76cc.png",
-    "static/media/social_banner_1.png": "/Adcropper-New-Website/static/media/social_banner_1.b56a2b8a369de4c943c7.png",
+    "static/media/basketball.png": "/Adcropper-New-Website/static/media/basketball.796836a61ba56c66eede.png",
+    "static/media/football.png": "/Adcropper-New-Website/static/media/football.e89c64015daeedace3e8.png",
+    "static/media/best_win.svg": "/Adcropper-New-Website/static/media/best_win.f6d2b77433cb7bbeb63122a2492d4d9a.svg",
+    "static/media/best_win_long.svg": "/Adcropper-New-Website/static/media/best_win_long.948cfd81d18d807f2d851019d3a59451.svg",
+    "static/media/best_win_centered.svg": "/Adcropper-New-Website/static/media/best_win_centered.7630868ed367b1a0a3c894a41cc44d2f.svg",
     "static/media/sb_tech.png": "/Adcropper-New-Website/static/media/sb_tech.163f104832752ca9ea4f.png",
     "static/media/football_api.png": "/Adcropper-New-Website/static/media/football_api.44ed3c6a192233214310.png",
     "static/media/arland.png": "/Adcropper-New-Website/static/media/arland.373d43ddfb9ecaf70731.png",
     "static/media/logo.svg": "/Adcropper-New-Website/static/media/logo.6f0481d14e397b320ed34b0e3b27df2f.svg",
+    "static/media/discount_inner2.svg": "/Adcropper-New-Website/static/media/discount_inner2.4f5cca335c956d43abea529a441923b7.svg",
+    "static/media/discount_inner.svg": "/Adcropper-New-Website/static/media/discount_inner.9166587cbac71f45f14acafb3d4ea650.svg",
+    "static/media/sportgames.svg": "/Adcropper-New-Website/static/media/sportgames.d76af68cf8a71ad25a5209521e662649.svg",
+    "static/media/playnow.svg": "/Adcropper-New-Website/static/media/playnow.693162d13fe03873e57664a781377038.svg",
+    "static/media/playnow2.svg": "/Adcropper-New-Website/static/media/playnow2.ba94e6c8a19dd438684f99cdbf21c2ab.svg",
+    "static/media/discount_ring.svg": "/Adcropper-New-Website/static/media/discount_ring.e9d4a342ad6cf0a3e3464168ed945b6f.svg",
     "static/media/automation.svg": "/Adcropper-New-Website/static/media/automation.2030072a6d245b82580b33762d504349.svg",
     "static/media/analytics.svg": "/Adcropper-New-Website/static/media/analytics.c1c1881b9231a1a36b798e9ec1caaacd.svg",
     "static/media/crm.svg": "/Adcropper-New-Website/static/media/crm.4b14a814b06257c68a98cc8a38e9f983.svg",
@@ -29,11 +32,11 @@
     "static/media/publishing.svg": "/Adcropper-New-Website/static/media/publishing.755f1673f1bd4887524c4bdb9597f7fa.svg",
     "index.html": "/Adcropper-New-Website/index.html",
     "static/media/chevron_left.svg": "/Adcropper-New-Website/static/media/chevron_left.7c086b8333c25b10c871959d677aa02b.svg",
-    "main.b659eb08.css.map": "/Adcropper-New-Website/static/css/main.b659eb08.css.map",
-    "main.ae753c56.js.map": "/Adcropper-New-Website/static/js/main.ae753c56.js.map"
+    "main.58362563.css.map": "/Adcropper-New-Website/static/css/main.58362563.css.map",
+    "main.39df9845.js.map": "/Adcropper-New-Website/static/js/main.39df9845.js.map"
   },
   "entrypoints": [
-    "static/css/main.b659eb08.css",
-    "static/js/main.ae753c56.js"
+    "static/css/main.58362563.css",
+    "static/js/main.39df9845.js"
   ]
 }
