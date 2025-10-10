@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Adcropper-New-Website/static/css/main.b7733c80.css",
-    "main.js": "/Adcropper-New-Website/static/js/main.935d789b.js",
+    "main.js": "/Adcropper-New-Website/static/js/main.c18fb261.js",
     "static/media/charlotte_veyron.png": "/Adcropper-New-Website/static/media/charlotte_veyron.9a66476031a5f7ca88a4.png",
     "static/media/goran_lakic.png": "/Adcropper-New-Website/static/media/goran_lakic.2e90f831e5cce143fcab.png",
     "static/media/crm_banner.png": "/Adcropper-New-Website/static/media/crm_banner.9d755f375a546d577686.png",
     "static/media/basketball-player.png": "/Adcropper-New-Website/static/media/basketball-player.8247d5294f5eab93ec66.png",
     "static/media/service.png": "/Adcropper-New-Website/static/media/service.b9618b7e0469a00c76cc.png",
-    "static/media/basketball.png": "/Adcropper-New-Website/static/media/basketball.796836a61ba56c66eede.png",
-    "static/media/football.png": "/Adcropper-New-Website/static/media/football.e89c64015daeedace3e8.png",
+    "static/media/basketball.png": "/Adcropper-New-Website/static/media/basketball.6d7863dddf8f8caf6176.png",
+    "static/media/football.png": "/Adcropper-New-Website/static/media/football.82ef6d05c6b5e146aaa7.png",
     "static/media/best_win.svg": "/Adcropper-New-Website/static/media/best_win.f6d2b77433cb7bbeb63122a2492d4d9a.svg",
     "static/media/best_win_long.svg": "/Adcropper-New-Website/static/media/best_win_long.948cfd81d18d807f2d851019d3a59451.svg",
     "static/media/best_win_centered.svg": "/Adcropper-New-Website/static/media/best_win_centered.7630868ed367b1a0a3c894a41cc44d2f.svg",
@@ -28,15 +28,15 @@
     "static/media/template.svg": "/Adcropper-New-Website/static/media/template.d275c98dddf5bfd9679a302bed0e1244.svg",
     "static/media/animation.svg": "/Adcropper-New-Website/static/media/animation.243e46ffab6c15b9dd823a806a81d17b.svg",
     "static/media/sun.svg": "/Adcropper-New-Website/static/media/sun.74f18bc236873b348893adccec9bcabb.svg",
+    "index.html": "/Adcropper-New-Website/index.html",
     "static/media/moon.svg": "/Adcropper-New-Website/static/media/moon.7f6d32d84bdaa5062a2c1830504a9a11.svg",
     "static/media/publishing.svg": "/Adcropper-New-Website/static/media/publishing.755f1673f1bd4887524c4bdb9597f7fa.svg",
-    "index.html": "/Adcropper-New-Website/index.html",
     "static/media/chevron_left.svg": "/Adcropper-New-Website/static/media/chevron_left.7c086b8333c25b10c871959d677aa02b.svg",
     "main.b7733c80.css.map": "/Adcropper-New-Website/static/css/main.b7733c80.css.map",
-    "main.935d789b.js.map": "/Adcropper-New-Website/static/js/main.935d789b.js.map"
+    "main.c18fb261.js.map": "/Adcropper-New-Website/static/js/main.c18fb261.js.map"
   },
   "entrypoints": [
     "static/css/main.b7733c80.css",
-    "static/js/main.935d789b.js"
+    "static/js/main.c18fb261.js"
   ]
 }
