@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Adcropper-New-Website/static/css/main.3bbbbc1d.css",
-    "main.js": "/Adcropper-New-Website/static/js/main.f2e5e366.js",
+    "main.js": "/Adcropper-New-Website/static/js/main.28c41358.js",
     "static/media/charlotte_veyron.png": "/Adcropper-New-Website/static/media/charlotte_veyron.9a66476031a5f7ca88a4.png",
     "static/media/goran_lakic.png": "/Adcropper-New-Website/static/media/goran_lakic.2e90f831e5cce143fcab.png",
     "static/media/crm_banner.png": "/Adcropper-New-Website/static/media/crm_banner.9d755f375a546d577686.png",
@@ -33,10 +33,10 @@
     "static/media/publishing.svg": "/Adcropper-New-Website/static/media/publishing.755f1673f1bd4887524c4bdb9597f7fa.svg",
     "static/media/chevron_left.svg": "/Adcropper-New-Website/static/media/chevron_left.7c086b8333c25b10c871959d677aa02b.svg",
     "main.3bbbbc1d.css.map": "/Adcropper-New-Website/static/css/main.3bbbbc1d.css.map",
-    "main.f2e5e366.js.map": "/Adcropper-New-Website/static/js/main.f2e5e366.js.map"
+    "main.28c41358.js.map": "/Adcropper-New-Website/static/js/main.28c41358.js.map"
   },
   "entrypoints": [
     "static/css/main.3bbbbc1d.css",
-    "static/js/main.f2e5e366.js"
+    "static/js/main.28c41358.js"
   ]
 }
