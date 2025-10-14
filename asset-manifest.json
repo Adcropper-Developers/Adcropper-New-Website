@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/Adcropper-New-Website/static/css/main.4902482c.css",
-    "main.js": "/Adcropper-New-Website/static/js/main.974a92a0.js",
+    "main.js": "/Adcropper-New-Website/static/js/main.fb432926.js",
     "static/media/video.mp4": "/Adcropper-New-Website/static/media/video.8e2824ff63f42e1b6031.mp4",
+    "static/media/LP.png": "/Adcropper-New-Website/static/media/LP.cd9b52db6b957bdbb84c.png",
     "static/media/charlotte_veyron.png": "/Adcropper-New-Website/static/media/charlotte_veyron.9a66476031a5f7ca88a4.png",
     "static/media/optimove.png": "/Adcropper-New-Website/static/media/optimove.3547a39686bcfc72d403.png",
-    "static/media/LP.png": "/Adcropper-New-Website/static/media/LP.e1348df072dd065d49af.png",
     "static/media/goran_lakic.png": "/Adcropper-New-Website/static/media/goran_lakic.2e90f831e5cce143fcab.png",
     "static/media/crm_banner.png": "/Adcropper-New-Website/static/media/crm_banner.9d755f375a546d577686.png",
     "static/media/basketball-player.png": "/Adcropper-New-Website/static/media/basketball-player.8247d5294f5eab93ec66.png",
@@ -41,10 +41,10 @@
     "static/media/publishing.svg": "/Adcropper-New-Website/static/media/publishing.755f1673f1bd4887524c4bdb9597f7fa.svg",
     "static/media/chevron_left.svg": "/Adcropper-New-Website/static/media/chevron_left.7c086b8333c25b10c871959d677aa02b.svg",
     "main.4902482c.css.map": "/Adcropper-New-Website/static/css/main.4902482c.css.map",
-    "main.974a92a0.js.map": "/Adcropper-New-Website/static/js/main.974a92a0.js.map"
+    "main.fb432926.js.map": "/Adcropper-New-Website/static/js/main.fb432926.js.map"
   },
   "entrypoints": [
     "static/css/main.4902482c.css",
-    "static/js/main.974a92a0.js"
+    "static/js/main.fb432926.js"
   ]
 }
