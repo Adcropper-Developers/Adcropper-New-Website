@@ -1,6 +1,7 @@
 {
   "short_name": "Adcropper",
   "name": "Adcropper",
+  "description": "Adcropper provides digital advertising, design, and software services to leading companies operating in various countries around the world.",
   "icons": [
     {
       "src": "favicon.ico",
