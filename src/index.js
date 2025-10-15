@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
-import { BrowserRouter, unstable_HistoryRouter as HistoryRouter } from "react-router-dom";
+import { BrowserRouter, unstable_HistoryRouter as HistoryRouter, HashRouter } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <BrowserRouter> */}
+    <HashRouter>
       <App />
-    {/* </BrowserRouter> */}
+    </HashRouter>
   </React.StrictMode>
 );

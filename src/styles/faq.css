@@ -1,0 +1,131 @@
+.faq-section {
+  padding-top: 5em;
+}
+
+.faq-section .wrapper {
+  max-width: 1600px;
+}
+
+.faq-wrapper {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 1em;
+  border-radius: 2em;
+  padding: 1em 2em;
+  background-color: var(--bg-color);
+}
+
+.faq-section h1 {
+  text-align: center;
+  font-weight: 300;
+  font-size: 3.5em;
+  --text-opacity: 1;
+  color: rgba(var(--font-color-rgb), var(--text-opacity));
+  margin-bottom: 1em;
+}
+
+.faq {
+  width: 100%;
+  border-bottom: 1px solid rgba(var(--font-color-rgb), 0.3);
+}
+
+.faq-header {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  position: relative;
+  padding-right: 1.5em;
+}
+
+@media (hover: hover) {
+  .faq-header {
+    cursor: pointer;
+  }
+}
+
+.faq-header h2 {
+  padding: 1rem 0rem;
+  font-size: 2em;
+  color: rgb(var(--font-color-rgb));
+  margin-bottom: 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  pointer-events: none;
+  user-select: none;
+
+}
+
+.faq-arrow {
+  width: 1.5em;
+  fill: rgb(var(--font-color-rgb));
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  pointer-events: none;
+  position: absolute;
+  right: 0%;
+  top: 50%;
+  transform: translateY(-50%) rotate(0deg);
+}
+
+.faq.active .faq-arrow {
+  -webkit-transform: translateY(-50%) rotate(180deg);
+  -ms-transform: translateY(-50%) rotate(180deg);
+  transform: translateY(-50%) rotate(180deg);
+  fill: rgb(var(--bg-green-rgb));
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  pointer-events: none;
+}
+
+.faq-body {
+  width: 100%;
+  max-height: 0;
+  overflow: hidden;
+  transition: 0.3s all;
+}
+
+.faq-body p {
+  margin-bottom: 1em;
+}
+
+.faq-body h3 {
+  font-size: 1.5em;
+}
+
+@media (max-width: 992px) {
+
+  .faq-section {
+    padding-top: 8em;
+  }
+
+  p {
+    font-size: 1.1em;
+  }
+}
+
+@media (max-width: 576px) {
+  p {
+    font-size: 1.2em;
+  }
+}

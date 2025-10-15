@@ -1,0 +1,407 @@
+main .book-demo-section .wrapper {
+  max-width: 1500px;
+}
+
+#sib-container {
+  background: var(--bg-color);
+  padding: 2em 7.5em;
+  border-radius: 1.5em;
+}
+
+#sib-container h2 {
+  margin-bottom: 0.5em;
+}
+
+@media (max-width: 1399px) {
+  .bookTitle {
+    align-items: flex-start;
+    font-size: 34px;
+    text-align: center;
+  }
+}
+
+.bookText {
+  font: italic 600 21px/1.25 Poppins, Helvetica, Arial, serif;
+  color: #00006b;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+@media (max-width: 1399px) {
+  .bookText {
+    align-items: flex-start;
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 1199px) {
+  .bookText {
+    width: 70%;
+  }
+}
+
+.bookList p {
+  font-family: Roboto;
+  font-size: 1.2em;
+  font-weight: 400;
+  text-align: left;
+  list-style-type: square;
+  color: #00006b;
+  margin-bottom: 10px;
+}
+
+.bookDemoForm {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  z-index: 4;
+}
+
+#sib-form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.sib-form {
+  width: 100%;
+}
+
+.formRow {
+  width: 100%;
+  display: flex;
+  gap: 1em;
+}
+
+.sib-input.sib-form-block {
+  width: 50%;
+}
+
+.entry__label {
+  display: inline-block;
+  width: 100% !important;
+  font-family: "Poppins", sans-serif !important;
+  font-size: 1em;
+  color: rgba(var(--font-color-rgb), 0.63);
+  margin-bottom: 5px;
+}
+
+.entry__label::after {
+  content: "*";
+  color: rgba(var(--font-color-rgb), 0.63);
+  margin-left: 1px;
+}
+
+.entry__label.entry__label_optin::after {
+  content: none;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 0px 1em;
+  height: 3em;
+  border: 1px solid transparent;
+  background-color: rgba(var(--font-color-rgb), 0.1);
+  color: rgba(var(--font-color-rgb), 1);
+  outline: 0;
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif !important;
+}
+
+#sib-container input::-moz-placeholder {
+  text-align: left;
+  font-family: "Poppins", sans-serif;
+  color: rgba(var(--font-color-rgb), 0.2);
+}
+
+#sib-container input::placeholder {
+  text-align: left;
+  font-family: "Poppins", sans-serif;
+  color: rgba(var(--font-color-rgb), 0.2);
+}
+
+#sib-container a {
+  display: inline;
+  text-decoration: underline;
+  font-weight: 600;
+  color: rgba(var(--font-color-rgb), 0.63) !important;
+}
+
+.input--hidden {
+  display: none !important;
+}
+
+.checkbox__label {
+  -webkit-user-select: none !important;
+  -moz-user-select: none !important;
+  user-select: none !important;
+}
+
+.checkbox__label span {
+  font-family: "Poppins", sans-serif !important;
+}
+
+.sib-checkbox-group.sib-form-block {
+  width: 100%;
+  display: flex;
+  text-align: unset !important;
+}
+
+.form__entry.entry_mcq {
+  width: 100%;
+}
+
+.form__label-row {
+  text-align: left !important;
+}
+
+.form__label-row div {
+  display: flex;
+  flex: wrap;
+  justify-content: space-between;
+}
+
+.sib-input.sib-form-block {
+  width: 100%;
+}
+
+.form__label-row textarea {
+  width: 100%;
+  min-height: 50px;
+  border: 1px solid transparent;
+  background-color: rgba(var(--font-color-rgb), 0.1);
+  font-family: "Poppins", sans-serif;
+  outline: 0;
+  padding: 0.5em 1em;
+  border-radius: 10px;
+}
+
+.entry__choice label {
+  display: flex;
+}
+
+.entry__choice span {
+  font-size: 1em;
+  font-family: "Poppins", sans-serif !important;
+}
+
+input[type=checkbox].input_replaced {
+  min-width: 24px !important;
+  min-height: 24px !important;
+  width: 24px !important;
+  height: 24px !important;
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  appearance: none !important;
+  background-color: #fff !important;
+  border: 2px solid rgba(225, 225, 225, 1) !important;
+  border-radius: 3px !important;
+  cursor: pointer !important;
+  position: relative !important;
+}
+
+input[type=checkbox].input_replaced:checked {}
+
+input[type=checkbox].input_replaced:checked::before {
+  content: "";
+  display: block;
+  width: 6px;
+  height: 12px;
+  border: solid rgba(113, 113, 113, 1);
+  border-width: 0 2px 2px 0;
+  position: absolute !important;
+  -webkit-user-select: none !important;
+  -moz-user-select: none !important;
+  user-select: none !important;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -60%) rotate(45deg);
+}
+
+.sib-form-block {
+  width: 100%;
+}
+
+.sib-form-block__button {
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer !important;
+}
+
+.sib-multiselect {
+  position: relative;
+}
+
+.sib-menu__item-list {}
+
+.input--multiselect {
+  width: 100%;
+  height: 3em;
+  position: relative;
+  padding: 0px 1rem;
+  overflow: hidden;
+  border-radius: 10px;
+  background-color: rgba(var(--font-color-rgb), 0.1);
+  color: rgba(var(--font-color-rgb), 1);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  user-select: none;
+  font-size: 1em;
+}
+
+.sib-menu {
+  width: 100% !important;
+  display: none;
+  position: absolute;
+  top: 4em !important;
+  left: 0 !important;
+  z-index: 10;
+  background-color: var(--bg-line-color);
+  border: 1px solid #d1d1d1;
+  border-radius: 3px;
+  margin-top: 8px;
+}
+
+.sib-multiselect__label {
+  cursor: pointer;
+  padding: 10px 10px;
+  margin: 0px;
+}
+
+.sib-menu__item .entry__choice .checkbox__label {
+  width: 100%;
+  padding: 10px 10px;
+  cursor: pointer;
+  margin: 0;
+}
+
+.sib-multiselect__label:hover,
+.sib-menu__item .entry__choice .checkbox__label:hover {
+  background-color: #eff2f7;
+}
+
+html[data-theme="dark"] .sib-multiselect__label:hover {
+  background-color: rgba(var(--font-color-rgb), 0.1);
+}
+
+.entry__choice span {
+  color: rgba(var(--font-color-rgb), 1);
+}
+
+.sib-multiselect__label input[type='checkbox'] {
+  display: none;
+}
+
+.sib-menu input[type='checkbox'] {
+  visibility: hidden;
+}
+
+.sib-form p {
+  font-size: 1em;
+  user-select: none;
+}
+
+.sib-form button {
+  border-radius: 10px;
+  margin: 2.5em auto;
+  --text-opacity: 1;
+  text-transform: capitalize;
+  border: 0px;
+}
+
+@media (max-width: 991px) {
+  .book-demo-section .wrapper {
+    padding-top: 10em;
+  }
+
+  .bookDemoWrapper {
+    flex-direction: column;
+    padding: 0px 0px;
+    margin-top: 200px;
+  }
+
+  .bookDemoTextContainer {
+    width: 90%;
+  }
+
+  .bookDemoTextContainer {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    z-index: 4;
+  }
+
+  .bookTitle {
+    margin-bottom: 10px;
+  }
+
+  .bookText {
+    max-width: 540px;
+    margin: 10px auto;
+    text-align: center;
+  }
+
+  .bookList {
+    max-width: 540px;
+    width: 100%;
+    margin: 10px auto;
+    text-align: left;
+  }
+
+  .bookDemoForm {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .bookDemoTextContainer {
+    width: var(--pageWidth);
+    margin: 0 auto;
+  }
+
+  .bookText {
+    width: 100%;
+    margin: 0;
+  }
+
+  .sib-form {
+    width: var(--pageWidth);
+  }
+
+  .formRow {
+    width: 100%;
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+  }
+
+  .sib-checkbox-group.sib-form-block .form__label-row div {
+    flex-wrap: wrap;
+    justify-content: start;
+  }
+
+  .sib-checkbox-group.sib-form-block .form__label-row .entry__choice {
+    width: 33%;
+  }
+}
+
+@media (max-width: 576px) {
+  #sib-container {
+    padding: 2em 2em;
+  }
+
+  .entry__label,
+  .input--multiselect {
+    font-size: 1.2em;
+  }
+
+  .sib-form button {
+    font-size: 1.5em;
+  }
+}
+
+/*# sourceMappingURL=bookDemo.css.map */

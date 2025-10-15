@@ -1,20 +1,20 @@
 import React, { useEffect, useRef, useState } from 'react';
-import Footer from '../Footer';
-import Navbar from '../Navbar';
-import Background from '../Background';
+import Footer from '../../Footer';
+import Navbar from '../../Navbar';
+import Background from '../../Background';
 import Section1 from './Section1';
 import Section2 from './Section2';
 import Section3 from './Section3';
 import Section4 from './Section4';
 import Section5 from './Section5';
 import Section6 from './Section6';
-import Loader from '../Loader';
+import Loader from '../../Loader';
 
 
 // import freelanceJson from '../../../assets/images/lotties/freelance.json';
 
 
-export default function Home({isLoading, setIsLoading, theme, changeTheme}) {
+export default function Home({isLoading, setIsLoading, theme, setTheme}) {
 
 
   useEffect(() => {
@@ -64,10 +64,10 @@ export default function Home({isLoading, setIsLoading, theme, changeTheme}) {
   }, []);
 
   return (
-    <main className={`landing-page ${theme}`}>
+    <main className={`landing-page`}>
       <Background />
-      <Navbar theme={theme} changeTheme={changeTheme} />
-      <Section1 />
+      <Navbar theme={theme} setTheme={setTheme} />
+      <Section1 theme={theme}/>
       <Section2 />
       <Section3 />
       <Section4 />
